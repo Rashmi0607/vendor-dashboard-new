@@ -76,8 +76,6 @@ export default function Vendor() {
     setVariants(newVariants);
   };
 
-
-
   const addVariant = () => {
     setVariants([...variants,{ scrapType: "", weightFrom: "", weightTo: "", price: "" },
 ]);
